@@ -1,0 +1,16 @@
+[package]
+name = "knife"
+version = "0.0.0"
+authors = ["philipahlberg <philipahlberg@gmail.com>"]
+edition = "2018"
+readme = "README.md"
+license = "MIT"
+repository = "https://github.com/philipahlberg/knife"
+homepage = "https://github.com/philipahlberg/knife"
+documentation = "https://docs.rs/knife"
+categories = ["mathematics", "rust-patterns"]
+keywords = ["iterators", "partitions", "division"]
+description = "An iterator that divides things evenly"
+
+[dependencies]
+num-traits = "0.2.14"
